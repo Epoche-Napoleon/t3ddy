@@ -1,0 +1,11 @@
+# cat=general/basic; type=boolean; label=Disable t3ddy tab container: If checked, tab container grid is not available.
+disableTabContainer = 0
+
+# cat=general/basic; type=boolean; label=Disable t3ddy accordion: If checked, accordion grid is not available.
+disableAccordion = 0
+
+# cat=general/basic; type=boolean; label=Disable gridelement-children in t3ddy item: If enabled, t3ddy item properties does not how gridelements children (content elements).
+disableGridElementsChildrenInT3ddyItem = 1
+
+# cat=general/basic; type=boolean; label=Create first t3ddy item: If enabled, an after-save hook creates the first t3ddy item of a container, when the container is created.
+createFirstT3ddyItem = 1

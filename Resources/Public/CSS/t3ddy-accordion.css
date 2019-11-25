@@ -1,0 +1,96 @@
+.t3-grid-container-epochenapoleon-ce-accordion {
+	padding-top: 5px;
+	margin: 0 !important;
+}
+.t3-grid-container-epochenapoleon-ce-accordion-accordion .panel-group {
+	margin-bottom: 0;
+}
+
+.epochenapoleon-ce-accordion > .newTabLink {
+	float: right;
+	margin-top: 8px;
+	margin-right: 8px;
+}
+
+.epochenapoleon-ce-accordion .newTabLink > a {
+	text-align: center;
+	width: 42px;
+
+}
+.epochenapoleon-ce-accordion .newTabLink > a > span {
+	font-weight: bold !important;
+	font-size: 18px;
+	line-height: 1;
+	cursor: pointer !important;
+}
+
+.t3ddy-accordion div.clearRight {
+	clear: right;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+}
+
+.t3ddy-accordion .panel {
+	box-shadow: none !important;
+}
+.t3ddy-accordion .panel-heading {
+	padding: 0;
+	border: none;
+	background: transparent !important;
+}
+.t3ddy-accordion .panel-heading > h3 {
+	margin: 0;
+	font-size: 1em;
+}
+.t3ddy-accordion .panel-heading > h3 > a {
+	padding: 12px 10px;
+	display: block;
+	width: 100%;
+}
+
+.t3ddy-drag h3.ui-accordion-header-active {
+	cursor: move;
+}
+.t3ddy-accordion h3 div.icons {
+	cursor: default;
+	position: absolute;
+	right: 6px;
+	top: 6px;
+}
+
+.t3ddy-accordion h3 a {
+	background: #eee;
+	border-bottom: 1px solid #ccc;
+}
+.t3ddy-accordion h3 > a:before {
+	content: " ";
+	background-image:url("../Images/JQueryUI/ui-icons_222222_256x240.png");
+	background-position: -64px 0;
+	width:16px;
+	height:16px;
+	display: inline-block;
+	vertical-align: text-bottom;
+	opacity: 0.6;
+}
+.t3ddy-accordion h3 > a.collapsed {
+	background: transparent;
+	border-bottom: none;
+}
+.t3ddy-accordion h3 > a.collapsed:before {
+	content: " ";
+	background-image:url("../Images/JQueryUI/ui-icons_222222_256x240.png");
+	background-position: -32px 0;
+	vertical-align: text-bottom;
+	width:16px;
+	height:16px;
+	opacity: 0.6;
+}
+
+.t3ddy-accordion h3 div.icons a span.t3-icon-actions-document {
+	margin-right: 6px;
+}
+
+.t3ddy-accordion .ui-accordion-content {
+	padding: 0 !important;
+}

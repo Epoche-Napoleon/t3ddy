@@ -1,0 +1,26 @@
+# Remove csc-default wrap for t3ddy-item grids
+tt_content.stdWrap.innerWrap.cObject.default.stdWrap.stdWrap.if {
+	value =
+	isInList.cObject = COA
+	isInList.cObject {
+		10 = TEXT
+		10.field = CType
+
+		15 = TEXT
+		15.value = -
+
+		20 = TEXT
+		20.field = tx_gridelements_backend_layout
+	}
+	negate = 1
+}
+
+# Inclusion of T3ddy grid definitions
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3ddy/Configuration/Gridelements/Accordion/setup.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3ddy/Configuration/Gridelements/TabContainer/setup.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3ddy/Configuration/Gridelements/Item/setup.ts">
+
+page.includeCSS.jQueryUi = EXT:t3ddy/Resources/Public/CSS/jquery-ui-1.11.4.min.css
+page.includeCSS.t3ddy = EXT:t3ddy/Resources/Public/CSS/t3ddy.css
+page.includeJSFooterlibs.jQueryUi = EXT:t3ddy/Resources/Public/JavaScript/Libraries/jquery-ui-1.11.4-custom.min.js
+page.includeJSFooter.t3ddy = EXT:t3ddy/Resources/Public/JavaScript/Frontend/T3ddy.js
